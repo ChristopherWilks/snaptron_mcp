@@ -1,9 +1,12 @@
 # Snaptron MCP Server
 
+Query RNA-seq splice junction data from [Snaptron](https://snaptron.cs.jhu.edu/) directly
+
 Claude itself was mostly used to generate this repo.   
+But it was manually (but briefly) tested the MCP server with Claude Desktop.
 
-Query RNA-seq splice junction data from [Snaptron](https://snaptron.cs.jhu.edu/) directly (currently only briefly tested within Claude Desktop)
-
+IMPORTANT NOTE: Snaptron can generate large amounts of [textual] data which can quickly eat up the context window and your tokens,
+SO USE AT YOUR OWN RISK!
 
 ## Installation
 
